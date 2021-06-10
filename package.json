@@ -1,6 +1,6 @@
 {
   "name": "iframe-event-bus",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "跨应用通信",
   "main": "dist/index.js",
   "scripts": {
