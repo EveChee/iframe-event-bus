@@ -1,4 +1,4 @@
-# SDP 跨应用通信插件 EventBus
+# 跨应用通信插件 EventBus
 
 目前基于 postMessage 实现通信
 
@@ -12,7 +12,8 @@
 | context |  any   | 事件上下文(一般是 window，有自定义实现 postMessage 也可以) |    none     |
 
 ```js
-import EventBus from '@sdp/event-bus'
+import EventBus from 'iframe-event-bus'
+// import EventBus from '@sdp/event-bus' 内部请使用这个包名
 const bus = new EventBus()
 // 如果有其他约定源也可以
 const bus = new EventBus('origin')

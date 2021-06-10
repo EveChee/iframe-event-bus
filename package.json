@@ -1,5 +1,5 @@
 {
-  "name": "@sdp/event-bus",
+  "name": "iframe-event-bus",
   "version": "0.0.5",
   "description": "跨应用通信",
   "main": "dist/index.js",
