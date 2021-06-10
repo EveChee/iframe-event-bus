@@ -10,8 +10,11 @@
     "test": "gulp clean:test && karma start"
   },
   "keywords": [
-    "postMessage"
+    "postMessage",
+    "iframe",
+    "eventBus"
   ],
+  "homepage": "https://github.com/EveChee/iframe-event-bus#readme",
   "author": "Eco",
   "license": "MIT",
   "dependencies": {
